@@ -1,4 +1,21 @@
 let arr = [1, 2, 3, 2, 12, 42, 11, 1, 2, 3];
+let NesArr = [
+  [1, 3, 4],
+  [2, 5, 7],
+  [1, 2, 1],
+];
+
+//nested array max ele
+const mxNestedArr = (arr) => {
+  let mx = INT_MIN;
+  for (let a of arr) {
+    if (mx < Math.max(...a)) {
+      mx = Math.max(...a);
+    }
+  }
+  return mx;
+};
+console.log(mxNestedArr(NesArr));
 
 // max no. in an array
 const maxInArray = (arr) => {
