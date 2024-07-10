@@ -1,0 +1,55 @@
+Introductory Questions
+
+Can you tell me a little about yourself and your background?
+//"Certainly!
+1. My name is Mahesh, and I am currently in my final year of college, majoring in Computer Science. 
+2. I have a strong passion for web development and have gained significant experience working with the MERN stack, Next.js, TypeScript, SQL, and PostgreSQL.
+3. I enjoy solving real-world problems through coding, which has driven me to work on several projects, including 'Sarthi,' a collaborative app, and an e-commerce project.
+4. I have also interned as a React developer at Sync Intern, where I honed my skills further.
+5. I am excited about the opportunity to bring my experience and passion for web development to your team."
+
+Why are you interested in this position and our company?
+"I am very interested in this position because-
+1. it aligns perfectly with my skills and career aspirations.
+2. Your company is known for its innovative approach and commitment to excellence, which are values I strongly resonate with.
+3. I am particularly drawn to the opportunity to work on challenging projects and collaborate with a talented team.
+4. I believe that my background in MERN stack development and my problem-solving abilities will allow me to contribute effectively.
+5. Additionally, I am excited about the potential for professional growth and learning at your company."
+
+Technical Questions
+Can you explain the difference between var, let, and const in JavaScript?
+What is the Virtual DOM, and how does it work?
+How does the event delegation pattern work in JavaScript?
+What are Promises, and how do you use them? Can you explain async/await?
+What are the main differences between React and other frameworks like Angular or Vue.js?
+Can you explain the concept of state management in React?
+How would you optimize a web application's performance?
+What are Webpack and Babel, and why are they used in modern web development?
+Can you explain the CSS box model?
+How would you handle browser compatibility issues in your code?
+
+Coding Challenges
+Write a function to debounce another function in JavaScript.
+Implement a basic React component that fetches and displays data from an API.
+Write a function to check if a given string is a palindrome.
+
+Problem-Solving Scenarios
+You have a web application that is loading slowly. How would you go about diagnosing and fixing the issue?
+Describe how you would design a responsive navigation menu for a website.
+
+Behavioral Questions
+Can you tell me about a time when you faced a significant challenge in one of your projects and how you overcame it?
+How do you prioritize your tasks when you have multiple deadlines to meet?
+Describe a time when you had to work closely with a team to achieve a common goal. What was your role, and what was the outcome?
+How do you stay updated with the latest trends and advancements in web development?
+
+Wrap-up Questions
+
+Do you have any questions for us about the role or the company?
+"Yes, I do have a few questions.
+1. Could you tell me more about the team's structure and the types of projects I would be working on? 
+
+Is there anything else you would like us to know about you that we haven't covered?
+1. "I would like to highlight my adaptability and eagerness to learn. Throughout my academic and professional journey, I have always been quick to pick up new technologies and frameworks.
+2. I am confident that my proactive learning attitude and my dedication to delivering high-quality work will be an asset to your team.
+Thank you for considering my application."
