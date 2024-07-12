@@ -1,6 +1,8 @@
 var smallestNum = Number.MIN_SAFE_INTEGER;
 var largestNum = Number.MAX_SAFE_INTEGER;
 
+//undefined == placeholder in javascript != null
+
 // for...in ///iterating in object
 // for...of ///iterating in array
 
