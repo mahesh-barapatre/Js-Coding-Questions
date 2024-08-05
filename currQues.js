@@ -10,3 +10,8 @@ let NesArr = [
   [1, 2, 1],
 ];
 let longStr = "hi there, I am mahesh Barapatre";
+const user = [
+  { fName: "ram", lName: "D", age: 23 },
+  { fName: "Sam", lName: "S", age: 20 },
+  { fName: "Nam", lName: "B", age: 34 },
+];
