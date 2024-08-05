@@ -24,3 +24,37 @@ console.log(arr.slice(1, 3)); // [2, 3]
 console.log(arr.map((x) => x * 2)); // [2, 4, 6, 8]
 console.log(arr.filter((x) => x > 2)); // [3, 4]
 console.log(arr.reduce((acc, curr) => acc + curr, 0)); // 10
+
+//finding the max value using reduce function
+const maxVal = arr.reduce((max, curr) => {
+  if (max < curr) max = curr;
+  return max;
+}, 0);
+console.log(maxVal); //4
+
+const user = [
+  { fName: "ram", lName: "D", age: 23 },
+  { fName: "Sam", lName: "S", age: 20 },
+  { fName: "Nam", lName: "B", age: 34 },
+];
+
+//new array of user fullName only
+const userFName = user.map((x) => x.fName + " " + x.lName);
+console.log(userFName); //[ 'ram D', 'Sam S', 'Nam B' ]
+
+//give an object having freq of people having a age
+//{ 20: 1, 23: 1, 34: 1 }
+const ageFreq = user.reduce((ob, curr) => {
+  if (ob[curr.age]) {
+    ob[curr.age]++;
+  } else {
+    ob[curr.age] = 1;
+  }
+  return ob;
+}, {});
+console.log(ageFreq);
+
+//func to find fName of all the user whose age<30
+//chaining filter and map methods
+const over30 = user.filter((x) => x.age < 30).map((x) => x.fName);
+console.log(over30); //[ 'ram', 'Sam' ]
